@@ -11,14 +11,35 @@
 </head>
 
 <body>
-    <article class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a href="/signup" class="nav-link">Sign In/Sign Up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text mr-2 my-auto"><i>Great whiskey delivered to your door!</i></p>
+            <a href="/login">Sign In/Sign Up</a>
+        </div>
+    </nav>
+    <article class="container mt-3">
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    <strong>Sale Now On! </strong>Get 12 months for the price of 6! <a href="">See here for details!</a>
+                </div>
+            </div>
+        </div>
         <!--Callout-->
         <div class="row">
             <div class="col-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>The finest whiskeys delivered to your door</h1>
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month!
-                        <s>$19.99</s> <strong><mark>Get the first one free!</mark></strong></p>
+                        <s class="d-none d-sm-inline">$19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong><mark>Get the first one free!</mark></strong></p>
                     <button class="btn btn-success">Sign Up!</button>
                     <p class="text-muted"><small>You must be over 18 to sign up for our service. Please drink
                             responsibly.</small></p>
@@ -32,23 +53,38 @@
         <!--Quotes-->
         <section class="quotes">
             <div class="row">
-
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Quotes</h2>
                 </div>
+            </div>
 
+            <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I've been introduced to ten new whiskeys so far!</p>
-                        <p>Jake</p>
-                    </blockquote>
+                    <div class="media">
+                        <img src="assets/images/christian-buehner-DItYlc26zVI-unsplash.jpg"
+                            alt="Smiling man with medium length wavy brown hair, beard and glasses."
+                            class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I've been introduced to ten new whiskeys so far!</p>
+                                <p>Jake</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>Love my subscription!</p>
-                        <p>May</p>
-                    </blockquote>
+                    <div class="media">
+                        <img src="assets/images/christian-buehner-DItYlc26zVI-unsplash.jpg"
+                            alt="Smiling man with medium length wavy brown hair, beard and glasses."
+                            class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>Love my subscription!</p>
+                                <p>May</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -58,28 +94,36 @@
 
         <!--Features-->
         <section class="features">
-            <div class="row">
 
-                <div class="col-12">
+            <div class="row">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features</h2>
                 </div>
+            </div>
 
-                <div class="feature col-12 col-md-6 col-lg-4">
-                    <h3>Feature 1</h3>
-                    <p>feature one info here</p>
-                    <p><a class="btn btn-light btn-sm" href="">More Info</a></p>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 1</h3>
+                        <p>feature one info here</p>
+                        <p><a class="btn btn-light btn-sm" href="">More Info</a></p>
+                    </div>
                 </div>
 
-                <div class="feature col-12 col-md-6 col-lg-4">
-                    <h3>Feature 2</h3>
-                    <p>Feature two info here</p>
-                    <p><a class="btn btn-light btn-sm" href="">More Info</a></p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 2</h3>
+                        <p>Feature two info here</p>
+                        <p><a class="btn btn-light btn-sm" href="">More Info</a></p>
+                    </div>
                 </div>
 
-                <div class="feature col-12 col-md-6 col-lg-4">
-                    <h3>Feature 3</h3>
-                    <p>Feature three info here</p>
-                    <p><a class="btn btn-light btn-sm" href="">More Info</a></p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 3</h3>
+                        <p>Feature three info here</p>
+                        <p><a class="btn btn-light btn-sm" href="">More Info</a></p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -90,7 +134,6 @@
         <!--Top five table-->
         <section class="top-5-table">
             <div class="row">
-
                 <div class="col-12">
                     <h2 class="text-uppercase">Top 5 Whiskeys</h2>
                     <table class="table">
