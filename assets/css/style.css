@@ -15,7 +15,11 @@ h3 {
 }
 
 .callout-container {
-
+    height: 100vh;
+    background-image: url(../images/thomas-park-4aWCVJA2uSo-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .quotes-container {
@@ -27,5 +31,5 @@ h3 {
 }
 
 .top-5-container {
-    
+
 }
