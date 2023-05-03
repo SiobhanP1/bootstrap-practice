@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!--Nav section-->
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbar-brand">Whiskey Drop</a>
 
@@ -44,7 +45,10 @@
             <a href="/login" data-toggle="modal" data-target="#signUpModal">Sign In/Sign Up</a>
         </div>
     </nav>
-    <article class="container mt-3">
+    <!--End of nav section-->
+
+    <div class="container callout-container">
+        <!--Alert-->
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
@@ -52,6 +56,7 @@
                 </div>
             </div>
         </div>
+        <!--End of alert-->
         <!--Callout-->
         <div class="row">
             <div class="col-12">
@@ -65,13 +70,14 @@
                     <p class="text-muted"><small>You must be over 18 to sign up for our service. Please drink
                             responsibly.</small></p>
                     <!--End of Callout-->
-                </section>
             </div>
         </div>
+    </div>
 
-        <hr>
+    <hr>
 
-        <!--Quotes-->
+    <!--Quotes-->
+    <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -110,10 +116,12 @@
             </div>
         </section>
         <!--/.quotes -->
+    </div>
 
-        <hr>
+    <hr>
 
-        <!--Features-->
+    <!--Features-->
+    <div class="container features-container">
         <section class="features">
 
             <div class="row">
@@ -149,10 +157,12 @@
             </div>
         </section>
         <!--/.features-->
+    </div>
 
-        <hr>
+    <hr>
 
-        <!--Top five table-->
+    <!--Top five table-->
+    <div class="container top-5-container">
         <section class="top-5-table">
             <div class="row">
                 <div class="col-12">
@@ -193,9 +203,11 @@
             </div>
         </section>
         <!--/.top Whiskeys-->
+    </div>
 
     </article>
 
+    <!--Modal-->
     <div class="modal" tabindex="-1" id="signUpModal">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -233,6 +245,7 @@
             </div>
         </div>
     </div>
+    <!--End of modal-->
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
